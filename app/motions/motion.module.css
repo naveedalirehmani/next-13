@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* For screens smaller than or equal to 768px (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* For screens between 769px and 1024px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      max-width: 960px;
+      padding: 15px;
+    }
+  }
+  
+  /* For screens larger than 1024px (e.g., desktops) */
+  @media (min-width: 1025px) {
+    .container {
+      max-width: 1200px;
+      padding: 20px;
+    }
+  }
+  
