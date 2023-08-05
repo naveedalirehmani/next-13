@@ -1,0 +1,8 @@
+.container_flex{
+    display: flex;
+    gap:2rem;
+}
+.container_flex_item{
+    flex:1;
+    border:1px solid white;
+}
