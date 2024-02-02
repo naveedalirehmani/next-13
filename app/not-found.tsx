@@ -6,7 +6,7 @@ export default function NotFound() {
       <h2>Not Found /app</h2>
       <p>Could not find requested resource</p>
       <p>
-        View <Link href="/">all posts</Link>
+        View <Link href="/">Home</Link>
       </p>
     </div>
   )
